@@ -4,7 +4,7 @@ module.exports = {
   normalizeEntityName: function() {},
 
   beforeInstall: function() {
-    return this.addBowerPackageToProject('materialize', '0.98.0').then(function() {
+    return this.addBowerPackageToProject('materialize', '0.98.1').then(function() {
       return this.addAddonsToProject({
         packages: [{
           name: 'ember-cli-sass',
