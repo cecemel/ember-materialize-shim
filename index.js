@@ -40,13 +40,13 @@ module.exports = {
       });
     }
 
-    if (typeof FastBoot === 'undefined' && !(app.options['materialize-shim'] || {}).omitJS) {
-      app.import(app.bowerDirectory + '/materialize/dist/js/materialize.js');
-      app.import('vendor/materialize-shim.js', {
-        exports: {
-          materialize: ['default']
-        }
-      });
-    }
+//     if (typeof FastBoot === 'undefined' && !(app.options['materialize-shim'] || {}).omitJS) {
+//       app.import(app.bowerDirectory + '/materialize/dist/js/materialize.js');
+//       app.import('vendor/materialize-shim.js', {
+//         exports: {
+//           materialize: ['default']
+//         }
+//       });
+//     }
   }
 };
